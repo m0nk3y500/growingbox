@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: sftp://192.168.2.112/
+        ftp-server: sftp://79.194.26.12/
         ftp-username: piftp
         ftp-password: growingboxftp
